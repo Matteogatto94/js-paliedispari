@@ -12,10 +12,10 @@ const parolaInversa = invertiParola(parola);
 
 if(parola == parolaInversa){
     console.log(parola);
-    console.log('La parola da lei inserita è palindroma');
+    console.log('La parola da lei inserita è palidroma');
   } else {
     console.log(parola);
-    console.log('La parola da lei inserita non è palindroma');
+    console.log('La parola da lei inserita non è palidroma');
   }
   
 function invertiParola(str){
